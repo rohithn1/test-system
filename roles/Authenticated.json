@@ -1,0 +1,81 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllExternalDatabases": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "getCPUAnalytics"
+            },
+            {
+                "Level": 1,
+                "Name": "getCPUMovingAverage"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "Items": [],
+                "Level": 15,
+                "Name": "cpu_usage_percentages"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "ExternalDatabases": [],
+        "Files": [],
+        "ManageUsers": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "ServiceCaches": [],
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 15,
+                "Name": "$trigger/#"
+            },
+            {
+                "Level": 15,
+                "Name": "$timer/#"
+            },
+            {
+                "Level": 3,
+                "Name": "rohith-mac/1/+"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
