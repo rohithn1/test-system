@@ -1,0 +1,13 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "dependencies": "log,clearblade",
+    "execution_timeout": -1,
+    "logging_enabled": false,
+    "name": "getCPUAnalytics",
+    "params": [
+        ""
+    ],
+    "run_user": ""
+}
