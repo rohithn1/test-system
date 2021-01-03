@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "test-system",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "86a2f0fe0b96c189d0c48face3b401",
+    "system_secret": ""
+}
