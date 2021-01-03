@@ -1,0 +1,21 @@
+{
+    "items": [],
+    "name": "cpu_usage_percentages",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "usagepercentage",
+            "ColumnType": "float",
+            "PK": false
+        }
+    ]
+}
